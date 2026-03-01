@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Micheal Thomas | Resume Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <header class="topbar">
+    <div class="wrap nav-row">
+      <a class="brand" href="#home">Micheal Thomas</a>
+
+      <nav class="nav">
+        <a href="#home" class="navlink">Home</a>
+        <a href="#about" class="navlink">About</a>
+        <a href="#skills" class="navlink">Skills</a>
+        <a href="#projects" class="navlink">Projects</a>
+        <a href="#experience" class="navlink">Experience</a>
+        <a href="#education" class="navlink">Education</a>
+        <a href="#contact" class="navlink">Contact</a>
+
+        <button id="themeBtn" class="nav-btn" aria-label="Toggle theme">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="wrap hero-content">
+      <div class="hero-card reveal">
+        <h1>Micheal Thomas</h1>
+        <h2>Mechatronics Engineer | Embedded Systems, Automation & Cybersecurity</h2>
+
+        <p class="hero-sub">
+          Technical, software-focused Mechatronics Engineering student with hands-on experience
+          in embedded systems, automation, networking, cybersecurity, and web development.
+        </p>
+
+        <div class="hero-actions">
+          <!-- Resume PDF is in SAME folder as index.html -->
+          <a class="btn primary" href="./Micheal-Thomas-Resume.pdf" target="_blank" rel="noopener">
+            View Resume
+          </a>
+
+          <a class="btn ghost" href="./Micheal-Thomas-Resume.pdf" download>
+            Download Resume
+          </a>
+
+          <a class="btn ghost" href="#projects">View Projects</a>
+        </div>
+
+        <div class="hero-meta">
+          <span class="pill">Kingston 17, St. Andrew, Jamaica</span>
+          <a class="pill link" href="mailto:thomaselijah557@gmail.com">thomaselijah557@gmail.com</a>
+          <a class="pill link" href="tel:+18765106500">(876) 510-6500</a>
+          <a class="pill link" href="https://github.com/mthomas005-arch" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <main class="wrap page">
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h3 class="section-title">About</h3>
+
+      <div class="card reveal">
+        <p class="muted" style="margin-top:0">
+          I build practical engineering and IT solutions using embedded systems, automation concepts,
+          networking labs, and cybersecurity fundamentals. I focus on turning projects into portfolio-ready proof.
+        </p>
+
+        <div class="quick-grid">
+          <div class="mini">
+            <div class="mini-title">Focus</div>
+            <div class="mini-text">Embedded • Automation • Networking • Cybersecurity • Web</div>
+          </div>
+          <div class="mini">
+            <div class="mini-title">Tools</div>
+            <div class="mini-text">Multisim • Packet Tracer • Wireshark • VS Code • GitHub</div>
+          </div>
+          <div class="mini">
+            <div class="mini-title">Strengths</div>
+            <div class="mini-text">Troubleshooting • Documentation • Fast learning • Consistency</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h3 class="section-title">Technical Skills</h3>
+
+      <div class="grid">
+
+        <div class="card reveal">
+          <h4>Blue Team Cybersecurity</h4>
+          <div class="chips">
+            <span class="chip">SOC Monitoring</span>
+            <span class="chip">Incident Response</span>
+            <span class="chip">SIEM Fundamentals</span>
+            <span class="chip">Log Analysis</span>
+            <span class="chip">Threat Detection</span>
+            <span class="chip">Vulnerability Assessment</span>
+            <span class="chip">Network Traffic Analysis</span>
+            <span class="chip">Wireshark</span>
+            <span class="chip">Nmap</span>
+            <span class="chip">Firewall Concepts</span>
+            <span class="chip">Access Control</span>
+            <span class="chip">Basic Security Hardening</span>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <h4>Mechatronics Engineering</h4>
+          <div class="chips">
+            <span class="chip">Embedded Systems</span>
+            <span class="chip">Microcontrollers (Arduino)</span>
+            <span class="chip">Sensors & Transducers</span>
+            <span class="chip">Instrumentation</span>
+            <span class="chip">Digital Logic Design</span>
+            <span class="chip">Circuit Simulation (Multisim)</span>
+            <span class="chip">PLC Programming</span>
+            <span class="chip">Industrial Automation</span>
+            <span class="chip">Control Systems</span>
+            <span class="chip">PID Control</span>
+            <span class="chip">Power Electronics</span>
+            <span class="chip">Troubleshooting & Testing</span>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <h4>Web Development</h4>
+          <div class="chips">
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Responsive Design</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">Express.js</span>
+            <span class="chip">REST APIs</span>
+            <span class="chip">SQLite</span>
+            <span class="chip">Authentication (JWT)</span>
+            <span class="chip">LocalStorage</span>
+            <span class="chip">Git/GitHub</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- NEW: PROFICIENCY INDICATORS -->
+      <div class="card reveal" style="margin-top:18px;">
+        <h4>Proficiency (Selected)</h4>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <span>Wireshark</span>
+            <span class="level">Intermediate</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill intermediate"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <span>PLC Programming</span>
+            <span class="level">Intermediate</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill intermediate"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <span>Embedded C</span>
+            <span class="level">Intermediate</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill intermediate"></div></div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-header">
+            <span>Python</span>
+            <span class="level">Intermediate</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill intermediate"></div></div>
+        </div>
+
+        <div class="skill-item" style="margin-bottom:0;">
+          <div class="skill-header">
+            <span>Packet Tracer (VLANs/Routing)</span>
+            <span class="level">Intermediate</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill intermediate"></div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h3 class="section-title">Projects</h3>
+
+      <div class="card-list">
+
+        <article class="project reveal">
+          <div>
+            <h4>Logic-Based Buzzer Alert System (Multisim)</h4>
+            <p class="muted">
+              Designed and simulated a logic-based buzzer alert system using Multisim,
+              implementing AND gates, D flip-flops, LEDs, and buzzer control.
+            </p>
+            <div class="badges">
+              <span class="badge">Multisim</span>
+              <span class="badge">Digital Logic</span>
+              <span class="badge">Flip-Flops</span>
+              <span class="badge">Alarm</span>
+            </div>
+          </div>
+
+          <div class="actions">
+            <a class="btn ghost" href="./buzzer-system.ms14" download>Download</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div>
+            <h4>Enterprise Cisco Network Design (Packet Tracer)</h4>
+            <p class="muted">
+              Built VLAN-based enterprise topology with inter-VLAN routing, DHCP configuration,
+              and basic network security concepts.
+            </p>
+            <div class="badges">
+              <span class="badge">Packet Tracer</span>
+              <span class="badge">VLANs</span>
+              <span class="badge">Routing</span>
+              <span class="badge">DHCP</span>
+              <span class="badge">Security</span>
+            </div>
+          </div>
+
+          <div class="actions">
+            <a class="btn ghost" href="./cisco-network.zip" download>Download</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div>
+            <h4>Resume Website (This Site)</h4>
+            <p class="muted">
+              A responsive resume website with smooth navigation, modern UI, and downloadable files.
+            </p>
+            <div class="badges">
+              <span class="badge">HTML</span>
+              <span class="badge">CSS</span>
+              <span class="badge">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="actions">
+            <a class="btn ghost" href="https://github.com/mthomas005-arch" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <h3 class="section-title">Work Experience</h3>
+
+      <div class="card-list">
+
+        <article class="project reveal">
+          <div>
+            <h4>Carpenter / IT Support – Natural Authentic Furniture Store</h4>
+            <p class="muted">St. Elizabeth, Jamaica | Jan 2023 – Dec 2025</p>
+            <ul class="bullets">
+              <li>Troubleshot hardware and basic IT infrastructure issues to maintain operational continuity.</li>
+              <li>Managed system maintenance including website updates and security best practices.</li>
+              <li>Analyzed client requirements and translated them into practical technical solutions.</li>
+              <li>Documented project workflows and technical processes for future reference.</li>
+              <li>Maintained 98% on-time project completion through effective time management.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div>
+            <h4>Line Chef – Sophie’s Station</h4>
+            <p class="muted">Fairbanks, Alaska, USA | Jun 2024 – Sep 2024</p>
+            <ul class="bullets">
+              <li>Prepared and plated 100+ meals daily with strict quality control.</li>
+              <li>Maintained compliance with hygiene and safety standards.</li>
+              <li>Improved team efficiency through effective task coordination.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div>
+            <h4>Crew / Kitchen – Arby’s</h4>
+            <p class="muted">Fairbanks, Alaska, USA | Jun 2024 – Sep 2024</p>
+            <ul class="bullets">
+              <li>Worked under high-volume demand while maintaining safety and quality standards.</li>
+              <li>Collaborated with team members to meet operational goals.</li>
+              <li>Strengthened customer service delivery through clear communication.</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <h3 class="section-title">Education</h3>
+
+      <div class="card reveal">
+        <h4>Caribbean Maritime University (CMU)</h4>
+        <p class="muted">BSc Mechatronics Engineering | 2023 – Present</p>
+        <ul class="bullets">
+          <li>Industrial Electronics, Embedded Systems, Instrumentation & Transducers</li>
+          <li>PLC/Automation, Control Systems, Networking & Communication</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h3 class="section-title">Contact</h3>
+
+      <div class="grid contact-grid">
+        <div class="card reveal">
+          <h4>Direct</h4>
+          <div class="contact-items">
+            <a class="contact-item" href="mailto:thomaselijah557@gmail.com">
+              <span class="dot"></span>
+              <span>Email:</span>
+              <strong>thomaselijah557@gmail.com</strong>
+            </a>
+
+            <a class="contact-item" href="tel:+18765106500">
+              <span class="dot"></span>
+              <span>Phone:</span>
+              <strong>(876) 510-6500</strong>
+            </a>
+
+            <div class="contact-item">
+              <span class="dot"></span>
+              <span>Location:</span>
+              <strong>Kingston 17, St. Andrew, Jamaica</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <h4>Links</h4>
+          <div class="contact-row">
+            <a class="btn ghost" href="https://github.com/mthomas005-arch" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn ghost" href="./Micheal-Thomas-Resume.pdf" target="_blank" rel="noopener">Resume PDF</a>
+          </div>
+          <p class="muted" style="margin-bottom:0">
+            Add LinkedIn later by copying the GitHub button and changing the link.
+          </p>
+        </div>
+
+        <div class="card reveal">
+          <h4>Message</h4>
+          <p class="muted">This button opens your email with the subject already set.</p>
+          <a class="btn primary" href="mailto:thomaselijah557@gmail.com?subject=Portfolio%20Inquiry%20-%20Micheal%20Thomas">
+            Email Me
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span class="muted">© <span id="year"></span> Micheal Thomas</span>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
